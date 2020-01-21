@@ -7,7 +7,7 @@ font-family: 'Open Sans', sans-serif;
 .contin{
  position: relative;;
  margin:1.25rem;
- height:23.75rem;
+ height:200px;
 background-color: gray;
 color:#ffffff;
 position:relative;
@@ -16,7 +16,10 @@ position:relative;
 color:#22BFA0;
 }
 .rounded-circle{
-margin-left:28.125rem;
+margin-left:26.125rem;
+}
+#move{
+margin-top: 50px;
 }
 #logo{
 margin-right:43.75rem;
@@ -33,6 +36,10 @@ margin: auto 0;
  left: 50%;
  transform: translate(-50%, -50%);
  color:#ffffff;
+ }
+ span{
+  color:#ffffff;
+  margin: 5px 5px;
  }
 .crd{
 width:5.625rem;
@@ -65,7 +72,7 @@ margin: 2.5rem 1.25rem;
 }
 
 .card{
- box-shadow: 10px 10px 8px 10px #888888;
+ box-shadow: 3px 3px 3px 3px #888888;
 }
 .card:hover {
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -75,17 +82,62 @@ color:#22BFA0;
 }
 .footertext{
 color:#ffffff;
-font-size:15px;
+font-size:0.938em;
 font-weight: bold;
+text-align: center;
+}
+.fa-envelope{
+margin-left:2.5rem;
+}
+.fa-phone{
+margin-left:2.5rem;
+}
+.html{
+height:1.25rem;
+width:43.75rem;
+background-color:#22BFA0; 
+border: 0;
+border-radius: 9px;
+margin: 1.25rem 15.625rem ;
 }
 
+.css{
+ height:1.25rem;
+  width:40.625rem;
+  background-color:#22BFA0; 
+  border: 0;
+  border-radius: 9px;
+  margin: 1.25rem 15.625rem ;
+}
+
+.js{
+  height:1.25rem;
+   width:37.5rem;
+   background-color:#22BFA0; 
+   border: 0;
+   border-radius: 9px;
+   margin: 1.25rem 15.625rem ;
+ }
+ 
+.react{
+  height:1.25rem;
+  width:31.25rem;
+  background-color:#22BFA0; 
+  border: 0;
+  border-radius: 9px;
+  margin:1.25rem 15.625rem ;
+}
+
+i{
+width:200px;
+}
 .nav-link{
 color:#ffffff;
 float:right;
 }
 footer{
 background: grey;
-height:25rem;
+min-height:26rem;
 }
 
 .card{
@@ -137,4 +189,7 @@ width:12.5rem;
     .centered{
     top:50%;
     }
+    .rounded-circle{
+      margin-left:12.125rem;
+      }
 }
