@@ -7,7 +7,7 @@ font-family: 'Open Sans', sans-serif;
 .contin{
  position: relative;;
  margin:1.25rem;
- height:200px;
+ 
 background-color: gray;
 color:#ffffff;
 position:relative;
@@ -35,7 +35,7 @@ margin: auto 0;
 }
 .centered {
  position: absolute;
- top: 30%;
+ top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
  color:#ffffff;
@@ -55,9 +55,7 @@ margin:auto 0;
 margin: 0.5rem 12.5rem;
 }
 
-.navbar-toggler{
-background-color:blue;
-}
+
 .navbar-toggler div{
 width: 2.1875rem;
 height:0.3125rem;
@@ -190,9 +188,61 @@ width:12.5rem;
   }
   @media only screen and (max-width: 425px) {
     .centered{
-    top:50%;
-    }
-    .rounded-circle{
-      margin-left:12.125rem;
+      top:50%;
       }
+    .rounded-circle{
+      margin-left:8.125rem;
+      }
+      .contin{
+        height:200px;
+      }
+
+      .html{
+       height:1.25rem;;
+        width:25.30rem;
+        background-color:#22BFA0; 
+        border: 0;
+        border-radius: 9px;
+        margin: 20px 20px ;
+        }
+
+      .css{
+        height:1.25rem;
+        width:23.30rem;
+        background-color:#22BFA0; 
+        border: 0;
+        border-radius: 9px;
+        margin: 20px 20px ;
+      }
+
+      .js{
+        height:1.25rem;
+        width:23.30rem;
+        background-color:#22BFA0; 
+        border: 0;
+        border-radius: 9px;
+        margin: 20px 20px ;
+      }
+      .react{
+        height:1.25rem;
+        width:23.30rem;
+        background-color:#22BFA0; 
+        border: 0;
+        border-radius: 9px;
+        margin: 20px 20px ;
+      }
+
+      .footertext{
+        color:#ffffff;
+        font-size:0.9em;
+        margin:0 auto;
+        font-weight: bold;
+        text-align: center;
+        }
+        .icons{
+        margin:20px 150px;
+        }
+        .ico{
+          margin:20px 100px;
+          }
 }
