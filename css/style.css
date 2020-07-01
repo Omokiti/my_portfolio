@@ -1,20 +1,30 @@
 * {
  box-sizing: border-box;
 }
-html{
+html,body {
   scroll-behavior: smooth;
-  }
-body{
-font-family: 'Open Sans', sans-serif;
+  font-family:'Ubuntu', sans-serif;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
 }
-.contin{
- position: relative;;
- margin:1.25rem;
- 
+
+
+
+
+.navbar {
 background-color: gray;
-color:#ffffff;
-position:relative;
-}
+ width: 100%;
+ 
+
+ }
+ a{
+  color:#ffffff;
+ }
+ #changetext{
+  color:#ffffff;
+  margin-top: 20px;
+ }
 #about h3{
 color:#22BFA0;
 }
@@ -42,6 +52,7 @@ margin: auto 0;
  left: 50%;
  transform: translate(-50%, -50%);
  color:#ffffff;
+ font-size: 250px;
  }
  span{
   color:#ffffff;
@@ -58,12 +69,14 @@ margin:auto 0;
 margin: 0.5rem 12.5rem;
 }
 
-
+.navbar-toggler{
+  background: #22BFA0;
+}
 .navbar-toggler div{
-width: 2.1875rem;
-height:0.3125rem;
-background-color:#ffffff;
-margin:0.1875rem 6.25rem;
+width:35px;
+height:3px;
+background-color:#22BFA0;
+margin:3px 0;
  }
  .nav-link:hover {
 color:#22BFA0;
@@ -96,40 +109,9 @@ margin-left:2.5rem;
 .fa-phone{
 margin-left:2.5rem;
 }
-.html{
-height:1.25rem;
-width:43.75rem;
-background-color:#22BFA0; 
-border: 0;
-border-radius: 9px;
-margin: 1.25rem 15.625rem ;
-}
-
-.css{
- height:1.25rem;
-  width:40.625rem;
-  background-color:#22BFA0; 
-  border: 0;
-  border-radius: 9px;
-  margin: 1.25rem 15.625rem ;
-}
-
-.js{
-  height:1.25rem;
-   width:37.5rem;
-   background-color:#22BFA0; 
-   border: 0;
-   border-radius: 9px;
-   margin: 1.25rem 15.625rem ;
- }
- 
-.react{
-  height:1.25rem;
-  width:31.25rem;
-  background-color:#22BFA0; 
-  border: 0;
-  border-radius: 9px;
-  margin:1.25rem 15.625rem ;
+#imgs{
+width:50px;
+margin: 30px;
 }
 
 i{
@@ -196,43 +178,19 @@ width:12.5rem;
     .rounded-circle{
       margin-left:8.125rem;
       }
-      .contin{
-        height:200px;
-      }
-
-      .html{
-       height:1.25rem;;
-        width:25.30rem;
-        background-color:#22BFA0; 
-        border: 0;
-        border-radius: 9px;
-        margin: 20px 20px ;
+     
+      #imgs{
+       margin: 20px 160px;
         }
 
-      .css{
-        height:1.25rem;
-        width:23.30rem;
-        background-color:#22BFA0; 
-        border: 0;
-        border-radius: 9px;
-        margin: 20px 20px ;
+      .bout{
+        margin-left: 65px;
       }
-
-      .js{
-        height:1.25rem;
-        width:23.30rem;
-        background-color:#22BFA0; 
-        border: 0;
-        border-radius: 9px;
-        margin: 20px 20px ;
+      .projects{
+        margin: 20px 40px;
       }
-      .react{
-        height:1.25rem;
-        width:23.30rem;
-        background-color:#22BFA0; 
-        border: 0;
-        border-radius: 9px;
-        margin: 20px 20px ;
+      #projecttext{
+        margin-left:5px ;
       }
 
       .footertext{

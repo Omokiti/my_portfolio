@@ -20,3 +20,7 @@ var result = sample.reduce(function(a,b){
 console.log(result);
 
 console.log(['1','2','1'].map(parseInt));
+
+
+
+
