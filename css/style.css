@@ -5,34 +5,42 @@ html,body {
   scroll-behavior: smooth;
   font-family:'Ubuntu', sans-serif;
   width: 100%;
-  height: auto;
+  height:100%;
   overflow-x: hidden;
-  
+  }
+.box{
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+gap:150px;
 }
-body{
-background-color:red;
+.boxes{
+display:flex;
+flex-direction: row;
+gap:50px;
 }
-
-
-
 .navbar {
 background-color: gray;
  width: 100%;
+ height:50px;
  
-
+ }
+ .nav-link{
+  color:#ffffff;
  }
  a{
   color:#ffffff;
+  font-size: large;
  }
  #changetext{
-  color:#ffffff;
+  color:#22BFA0;
   margin-top: 20px;
  }
 #about h3{
 color:#22BFA0;
 }
 #text{
-color:#ffffff;
+color:#22BFA0;
 }
 .rounded-circle{
 margin-left:26.125rem;
@@ -49,14 +57,7 @@ margin-left: 3.125rem;
 #projects{
 margin: auto 0;
 }
-.centered {
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- color:#ffffff;
- font-size: 250px;
- }
+
  span{
   color:#ffffff;
   margin: 5px 5px;
@@ -71,7 +72,10 @@ margin:auto 0;
 #profilepic{
 margin: 0.5rem 12.5rem;
 }
+.content{
+width:400px;
 
+}
 .navbar-toggler{
   background: #22BFA0;
 }
@@ -90,7 +94,11 @@ text-align: center;
 color:#22BFA0;
 margin: 2.5rem 1.25rem;
 }
-
+#otherprojects{
+  text-align: center;
+color:#22BFA0;
+margin: 2.5rem 1.25rem;
+}
 .card{
  box-shadow: 3px 3px 3px 3px #888888;
 }
@@ -120,13 +128,10 @@ margin: 30px;
 i{
 width:200px;
 }
-.nav-link{
-color:#ffffff;
-float:right;
-}
+
 footer{
 background: grey;
-min-height:26rem;
+height:25rem;
 }
 
 .card{
@@ -175,14 +180,13 @@ width:12.5rem;
     transform: rotateY(180deg);
   }
   @media only screen and (max-width: 425px) {
-    .centered{
-      top:50%;
-      }
-    .rounded-circle{
-      margin-left:8.125rem;
-      }
-     
-      #imgs{
+  .box,.boxes{
+    flex-wrap: wrap;
+    }
+    footer{
+    height:auto;
+    }
+    #imgs{
        margin: 20px 160px;
         }
 

@@ -15,14 +15,16 @@
     <title>omokiti emamuzo portfolio</title>
    
 </head>
-<body>
+<body  id="body">
   <div class="row">
      <div class="col-md-12 ">
         
-      <nav class="navbar navbar-expand-lg  ">
-        <p class="navbar-brand centered"><h2 id="changetext"> Emamuzo Omokiti <br/> <p onload="effectWriter();"><p id="text"></p></p></h2>
-       
-        </p>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"> 
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo-min.png" alt="logo" width="30" height="24">
+        </a>
+      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           <div></div>
@@ -32,9 +34,7 @@
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
@@ -53,6 +53,7 @@
           </ul>
           
         </div>
+      </div>
       </nav>
       
     
@@ -63,114 +64,142 @@
             </div>
 
             <div id="about">
-           <div class="row pt-3">
+             
+           <div class="row mt-5 pt-5">
+             <div class="container">
+               <div class="box">
+                 <div>
+                  <img src="images/emamzuo.svg"  width="300px"alt="emamuzo omokiti" />
+                 </div>
+                 <div>
+                  <div class="bout">
+                    <div data-aos="zoom-in-up">
+                      <h3 onload="effectWriter();"><p id="text"></p></h3>
+                   
+                     <br/>
+                     <p>I am  a creative Front-end Developer based in Lagos,Nigeria.<br/>
+                       Who got intrested in tech after attending a tech workshop for ladies during my National Youth Service Corps<br/>
+                       Then found out about the Stutern Graduate Accelerator programme and took part in  the Stutern Accelerator programme which shapened my career path.<br/>
+                       I make use of the best web technologies such as Html5,Css3,Sass,Javascript and React to create amazing products
+                       When I am not coding,I can be found reading a novel,listening to music,watching movies <br/>and hiking(when I visit the nothern part of Nigeria).
+                       
+                      </p>
+                 </div>
+                 </div>
+                 </div>
+               </div>
+             </div>
               
-               <div class="col-md-6">
-                   <img src="images/em-min.JPG" class="rounded-circle "width="200px"/>
-               </div>
               
-               <div class="col-md-6 bout">
-                  <div data-aos="zoom-in-up">
-                   <h3>A LITTLE ABOUT EMAMUZO OMOKITI </h3>
-                   <br/>
-                   <P>I am  a creative Front-end Developer based in Lagos,Nigeria.<br/>
-                     Who got intrested in tech after attending a tech workshop for ladies during my National Youth Service Corps<br/>
-                     Then found out about the Stutern Graduate Accelerator programme and took part in  the Stutern Accelerator programme which shapened my career path.<br/>
-                      When I am not coding,I can be found reading a novel,listening to music,watching movies <br/>and hiking(when I visit the nothern part of Nigeria).
-                </P>
-               </div>
-               </div>
+               
            </div>
         </div>
         <hr/>
        
        
-          <div class="row">
-            <div class="col-md-12">
-              <h3 id="projecttext">Skills</h3>
-            
-             </div>
-            </div>
-           
-          <div class="row">
-            <div class="col-md-12">
-            <div data-aos="zoom-in-up">
-           <div class="row pt-4">
-             <div class="col-md-2 ">
-               
-              <img src="images/html-5.svg"alt="html logo" id="imgs"/>
-               
-             </div>
-
-             <div class="col-md-2 ">
-               
-              <img src="images/css3.svg"alt="css3 logo" id="imgs"/>
-               
-             </div>
-             <div class="col-md-2">
-               
-              <img src="images/sass.svg"alt="sass logo" id="imgs"/>
-               
-             </div>
-
-             <div class="col-md-2">
-               
-              <img src="images/javascript.svg"alt="javascript logo" id="imgs"/>
-             </div>
-           
-           
-              <div class="col-md-2 ">
-               
-                <img src="images/react-1.svg" alt="react logo"id="imgs"/>
-                 
-               </div>
-
-               
-
-               <div class="col-md-2 ">
-               
-                <img src="images/git-icon.svg"alt="git logo" id="imgs"/>
-                 
-               </div>
-           
-          </div>
-        </div>  
-      </div>
-    </div>
-      
-      
-        <hr/>
+          
+        
         <div id="projects">
-            <div class="row pt-4">
+            <div class="row ">
                 <div class="col-md-12">
-                    <h3 id="projecttext"> What  I have been up to </h3>
+                    <h3 onload= "effectWriter2();"class="ml-5 pl-5" ><p id="projecttext"> </p></h3>
                 </div>
             </div>
             
            
-        <div class="row">
-          <div class="col-md-12 projects">
+       
+          <div id=" projects">
             <div data-aos="fade-up">
               <div class="row">
-            <div class="col-md-3">
+              <div class="container">
+                <div class="boxes">
+                  <div class="content">
+                    <a href="https://sagecloud.ng/">
+                      <div class="flip-cards">
+                          <div class="flip-cards-inner">
+                            <div class="flip-cards-front">
+                              <img src="images/sage.png" alt="sage cloud" style="width:18.75rem;height:12.5rem">
+                            </div>
+                            <div class="flip-cards-back">
+                              <h5>Sage Cloud</h5>
+                              <p>Value Added Web Application</p>
+                              <p> Sage Cloud web application was built using Html,Sass,bootstrap and Php(laravel)</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                        
+                  </div>
+                  <div>
+                    <p>Sage cloud is a value added service web application <br/>
+                     it is a  solution hub providing deep expertise in delivering a wide range of APIs <br/>
+                     infrastructure and complete digital financial solutions <br/>
+                    I was part of the two man front-end team that worked on the application</p>
+                  </div>
+                </div>
+                <div class="boxes mt-3">
+                  <div class="content">
+                    
               
-                <a href="https://omokiti.github.io/capital-sage/">
-                <div class="flip-cards">
-                    <div class="flip-cards-inner">
-                      <div class="flip-cards-front">
-                        <img src="images/capital sage.png" alt="capital sage" style="width:18.75rem;height:12.5rem;">
-                      </div>
-                      <div class="flip-cards-back">
-                        <h5>Capital Sage</h5>
-                        <p>Fintech Website</p>
-                        <p>Capital Sage website was built using Html,Sass and bootstrap</p>
-                      </div>
-                    </div>
+                      <a href="https://kolomoni.ng/">
+                      <div class="flip-cards">
+                          <div class="flip-cards-inner">
+                            <div class="flip-cards-front">
+                              <img src="images/kolomoni.png" alt="capital sage" style="width:18.75rem;height:12.5rem"/>
+                            </div>
+                            <div class="flip-cards-back">
+                              <h5>KoloMoni</h5>
+                              <p> Fin-Tech website</p>
+                              <p> KoloMoni website was built using Html,Sass and bootstrap</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                        
                   </div>
-                </a>
+                  <div>
+                    <p>KoloMoni is a Fin-tech website <br/>
+                    I was part of the two man front-end team that worked on the website</p>
                   </div>
+                </div>
+               <div class="boxes mt-3">
+                <div class="content">
+                  
+            
+                    <a href="https://omokiti.github.io/capital-sage/">
+                    <div class="flip-cards">
+                        <div class="flip-cards-inner">
+                          <div class="flip-cards-front">
+                            <img src="images/capital sage.png" alt="capital sage" style="width:18.75rem;height:12.5rem"/>
+                          </div>
+                          <div class="flip-cards-back">
+                            <h5>Capital Sage</h5>
+                            <p> Fin-Tech website</p>
+                            <p>Capital Sage website was built using Html,Sass and bootstrap</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                      
+                </div>
+                <div>
+                  <p>Capital Sage is a Fin-tech website <br/>
+                  I was part of the two man front-end team that worked on the website</p>
+                </div>
+              </div>
+              </div>
+             
+            </div>
+            <div class="row ">
+              <div class="col-md-12">
+                <h3 onload= "effectWriter3();"class="ml-5 pl-5" ><p id="otherprojects"> </p></h3>
+                 
+              </div>
+          </div>
+              <div class="row mt-5 pt-5 ml-2">
+            
 
-                  <div class="col-md-3">
+                  <div class="col-md-4">
                     <a href="https://dictz.netlify.com/">
                     <div class="flip-cards">
                         <div class="flip-cards-inner">
@@ -187,7 +216,7 @@
                     </a>
                       </div>
             
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <a href="https://fitzapp.netlify.com">
                 <div class="flip-cards">
                     <div class="flip-cards-inner">
@@ -197,14 +226,14 @@
                       <div class="flip-cards-back">
                         <h5>Fitz</h5>
                         <p> Open Fitness Platform that allows users check bmi,<br/>get healthy recipes and use gif-exercises</p>
-                        <p>Fitz was built using react,css and react bootstrap</p>
+                        <p>Fitz was built using react</p>
                       </div>
                     </div>
                   </div>
                 </a>
             </div>
            
-            <div class="col-md-3">
+            <div class="col-md-4">
               <a href="https://nbastat.netlify.com/">
               <div class="flip-cards">
                   <div class="flip-cards-inner">
@@ -223,29 +252,12 @@
         
         </div>
       </div>
-      <div class="row new pt-2">
-        <div class="col-md-3">
-          <a href="https://omokiti.github.io/sagecloud/">
-            <div class="flip-cards">
-                <div class="flip-cards-inner">
-                  <div class="flip-cards-front">
-                    <img src="images/sagecloudlanding.png" alt="sage cloud" style="width:18.75rem;height:12.5rem;">
-                  </div>
-                  <div class="flip-cards-back">
-                    <h5>Sage Cloud</h5>
-                    <p> Sage cloud is a value added service website.</p>
-                    <p>Sage Cloud was buit using Html,Sass,Bootstrap,</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-      </div>
+     
         </div>
       </div>
     </div>
-        <div id="contact">
-            <footer>
+          
+            <footer id="contact">
                 <div class="row mt-4 pt-5">
                     <div class="col-md-12"data-aos="fade">
                         <h3 id="projecttext">Get in Touch With Me</h3>
@@ -274,10 +286,11 @@
         <hr/>
         <p class="pl-5">
             <small>©Emamuzo Omokiti. All rights reserved</small>
+            <small id="date"></small>
         </p>
     </footer>
     
-    </div>
+    
     
 
 

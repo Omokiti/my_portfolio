@@ -1,5 +1,5 @@
 let i = 0;
-let txt="Frontend Developer"
+let txt="A LITTLE ABOUT EMAMUZO OMOKITI "
 let speed= 50;
 
 function effectWriter(){
@@ -11,16 +11,38 @@ function effectWriter(){
 }
 
 effectWriter();
-var sample=[[0,1][2,3],[4,5]];
-var result = sample.reduce(function(a,b){
-    return a. concat(b);
 
+let j =0;
+let text="WHAT I HAVE BEEN UP TO "
+let speeds=50;
+function effectWriter2(){
+    if(j<text.length){
+    document.getElementById('projecttext').innerHTML+=text.charAt(j);
+    j++;
+    setTimeout(effectWriter2,speeds);
+    }
+}
 
-},[]);
-console.log(result);
+effectWriter2();
 
-console.log(['1','2','1'].map(parseInt));
+let k=0;
+let texts="OTHER PROJECTS"
+let speedz=50;
 
+function effectWriter3(){
+    if(k < texts.length){
+        document.getElementById('otherprojects').innerHTML+=texts.charAt(k);
+        k++;
+        setTimeout(effectWriter3,speedz);
+    }
+}
+effectWriter3();
 
+function uptoDate(){
+let date=new Date();
+let currentDate=date.getFullYear();
+document.getElementById('date').innerHTML=currentDate;
+}
+uptoDate();
 
 
