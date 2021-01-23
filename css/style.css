@@ -183,6 +183,9 @@ width:12.5rem;
   .box,.boxes{
     flex-wrap: wrap;
     }
+    body{
+    font-size:1.2rem;
+    }
     footer{
     height:auto;
     }
@@ -195,6 +198,9 @@ width:12.5rem;
       }
       .projects{
         margin: 20px 40px;
+      }
+      .navbar{
+       height:80px;
       }
       #projecttext{
         margin-left:5px ;
@@ -212,5 +218,8 @@ width:12.5rem;
         }
         .ico{
           margin:20px 100px;
+          }
+          .nav-link{
+          color:#22BFA0;
           }
 }
